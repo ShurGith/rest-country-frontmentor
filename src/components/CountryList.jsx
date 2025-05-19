@@ -121,7 +121,7 @@ const CountryList = () => {
   if (error) return <p className="text-red-500 text-center mt-10">Error: {error}</p>;
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-4 py-8 lg:min-w-full">
       <FilterControls
         onRegionChange={handleRegionChange}
         onLanguageChange={handleLanguageChange}

@@ -6,7 +6,7 @@ import CountryDetail from './components/CountryDetail';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-gray-100 lg:min-w-[1280px]">
         <Navbar />
         <main>
           <Routes>
